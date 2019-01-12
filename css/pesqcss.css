@@ -1,0 +1,132 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: #C0C0C0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  box-shadow: 0px;
+}
+
+body {
+  background:#5F4236;
+}
+#x{
+  margin-top: -18px;
+}
+#container {
+  height: 200px;
+  margin-top: 10%;
+}
+
+.entypo-search:before {
+  position: absolute;
+  top: 0.4em;
+  left: 0px;
+}
+
+#form {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: 20px;
+  overflow: hidden;
+  position: absolute;
+  height: 30px;
+  right:0px;
+  margin-top: -200px;
+  margin-right: 0px;
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+form {
+  position: relative;
+}
+
+input {
+  width: 0px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 30px;  
+  /* margin-top: 3px; */
+  line-height: 30px;
+}
+
+.entypo-search {
+  position: absolute;
+  top: 10%;
+}
+
+#form:hover {
+  width: 200px;
+}
+
+#form:hover form input {
+  width: 200px;
+}
+
+#form form input:focus, 
+#form form input:active{
+  outline:none;
+  width: 300px;
+}
+
+#menu{
+  position: absolute;
+  margin-top: -167px;
+  margin-left: 585px;
+}
+
+#slideshowHolder{
+  margin-top: 120px;
+  margin-left: 546px;
+  width: 600px;
+  height: 650px;
+}
+
+.barra{
+  margin-top: -30px;
+  margin-left: 575px;
+  background-color: #e8c379;
+  border-radius: 20px;
+}
+#menu ul{
+  position:relative;
+  padding:0px;
+  list-style:none;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 120px;
+}
+
+#menu ul li{display: inline;}
+
+#menu ul li a{
+  padding: 6px 30px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+#menu ul li a:hover{
+  background-color:#4d3f2c;
+  border-radius: 20px;
+}
+#footer{    
+    background: #e8c379;
+    position: absolute; 
+    bottom: 0;  
+    height: 60px;
+    margin-top: 650px;
+    width: 100%;
+}

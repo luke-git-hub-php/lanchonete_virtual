@@ -1,0 +1,90 @@
+body{
+ background-color: #e9e9e9;
+     
+       
+}
+#d{
+	margin:100px 50px 50px 30px;
+}
+#p{ 
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight: 10px;
+	color:black;
+	font-style:italic;
+	font-weight:200px;
+	font-size: 20px;
+	text-align: center;
+	border:10px solid #99cc99;
+box-shadow: 100px 100px 100px #FFEFDB;
+ box-shadow: 0px 0px 0px #FFEFDB;
+}
+#div1{
+	background:#8B8386;
+	padding:50px 10px 10px 10px;
+  margin:0px 250px 250px 250px;
+border: 1px solid #cccccc;
+border-radius: 0px;
+border-radius: 0px;
+}
+#a{
+	margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 58px;
+    margin-left: 50px;
+	padding-top: 10px;
+	padding-right:10px; 
+   	font-weight: 10px;
+   	font-size: 	50px;	
+      border: 2px solid #696969;
+   border-radius: 10px;
+    border-radius: 10px;
+	
+}
+#b{ 
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 58px;
+    margin-left: 50px;
+	font-weight: 10px;
+   	font-size: 50px;	
+    border: 2px solid #696969;
+    border-radius: 10px;
+    border-radius: 10px;
+	
+	}
+#input1{
+  font-size: 70%;
+  width:450px ;
+  border: 2px solid #696969;
+ border-radius: 20px;
+ border-radius: 20px;
+
+}
+#input2{
+  font-size:70%;
+  border: 2px solid #696969;
+ border-radius: 20px;
+ border-radius: 20px;		
+}
+#botao{
+  width: 200px;
+  border-style:dashed;
+    position:absolute;
+    bottom:2.0em;
+    right:163px;			
+    font-size: 1.0em;
+    background: #F90;
+    border: 5;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    margin-right: 13em;
+    color: #FFF;
+    padding: 0.8em 0.4em 0.2em 0.2em;
+    
+}
