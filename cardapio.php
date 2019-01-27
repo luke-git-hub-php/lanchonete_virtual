@@ -46,7 +46,7 @@ $sql="SELECT * FROM produtos WHERE id_categoria='$idcat' ";
 $querysql=mysqli_query($conexao,$sql);
 while($linha_produtos=mysqli_fetch_array($querysql)){
 	  ?><tr>
- 	 <td><?php echo $linha_produtos['nome_produto'];?></td>
+ 	 <td><?php echo utf8_encode($linha_produtos['nome_produto']);?></td>
  	 <td><?php $linha_produtos['preco'];
        				 echo $valor_preco=number_format($linha_produtos['preco'],2,",","."); ?></td>
  	 	 <td><form method="post" action="recebe_pedido.php" >

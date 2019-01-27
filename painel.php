@@ -82,7 +82,7 @@ $(document).ready(function() {
 		</ul>
 	<div id="tabs-1">
 	<?php
-$conecta=mysqli_connect("localhost","root","","lanchonete")
+$conecta=mysqli_connect("localhost","root","","lanchonete2")
   or print(mysqli_error($conecta));
   ?>
 	<p></p>

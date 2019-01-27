@@ -1,5 +1,5 @@
 <?php
-$conexao=mysqli_connect("localhost","root","","lanchonete")or die(mysqli_error());
+$conexao=mysqli_connect("localhost","root","","lanchonete2")or die(mysqli_error());
 ?>
 <html>
 <head>

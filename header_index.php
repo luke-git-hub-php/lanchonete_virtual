@@ -11,7 +11,7 @@
 
 <hr class = "barra" color = "#5F4236"><body><div id = "site"></div>
 <hr class = "barra2" color = "#c4870f">
-<center><img src="logof1.png" id = "x" width= "190px" height = "210px"></center>
+<center><img src="img/logof1.png" id = "x" width= "190px" height = "210px"></center>
 
 </div>
 <div id="menu">

@@ -15,7 +15,7 @@
 <?php include('header_index.php');?>
 <div id="d">
 <?php
-$conecta=mysqli_connect("localhost","root","","lanchonete")
+$conecta=mysqli_connect("localhost","root","","lanchonete2")
   or print(mysqli_error($conecta));
   $id=$_GET['id'];
 mysqli_query($conecta,"DELETE FROM produtos WHERE id_produtos='$id'");

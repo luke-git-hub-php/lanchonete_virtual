@@ -14,7 +14,7 @@
 <body>
 <?php include('header_index.php');?>
 <?php
-$conecta=mysqli_connect("localhost","root","","lanchonete");
+$conecta=mysqli_connect("localhost","root","","lanchonete2");
  
   if(isset($_POST['nome_prod'])){
 //Campos recebidos pelo formulário

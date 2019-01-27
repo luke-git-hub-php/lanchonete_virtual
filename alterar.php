@@ -16,7 +16,7 @@
 <div id="d">
 <form name="form_alterar" method="POST" action="alterar_produtos.php">
 <?php
-$conecta=mysqli_connect("localhost","root","","lanchonete")
+$conecta=mysqli_connect("localhost","root","","lanchonete2")
   or print(mysqli_error($conecta));
   $idAlt=$_GET['id'];
  $resultado=mysqli_query($conecta,"SELECT * FROM produtos where id_produtos='$idAlt'");
